@@ -1,3 +1,18 @@
 __pycache__
 *.pyc
 *.egg-info
+
+/data/pmc_articles/*
+
+# macos files
+.DS_Store
+
+# do not track data files
+/data/eval/*.json
+/data/eval/*.jsonl.1
+/data/instruct/*.json
+/data/alignment/*.json
+/data/*.jsonl
+
+# log files
+*.log

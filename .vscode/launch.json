@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: cli.py with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/llava/serve/cli.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--image-file", "./data/pmc_articles/PMC6149739/molecules-22-02279-g001.jpg",
+                "--model-path", "microsoft/llava-med-v1.5-mistral-7b",
+                "--device", "cpu"
+            ]
+        }
+    ]
+}
